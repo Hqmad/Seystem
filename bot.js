@@ -6,7 +6,7 @@ var prefix = "$"
 const client = new Discord.Client();
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
- client.user.setActivity("",{type: 'watching'})
+ client.user.setActivity("$help",{type: 'watching'})
   console.log('xR1')
   console.log('MdAx77x')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -157,10 +157,10 @@ if (message.content.startsWith('السلام عليكم')){
 
 
 client.on('message', message => {
-if (message.content.startsWith('رابط')){
+if (message.content.startsWith('هلا')){
      let ra3d = new Discord.RichEmbed()
   .setColor("#e9ab26")
-  .setDescription("**https://discord.gg/CPzQxgs**")
+  .setDescription("**هلا بك**")
      
      
   message.channel.sendEmbed(ra3d);
@@ -249,6 +249,7 @@ const bannedwords = [
     "الله يلعن",
     "قحبه",
     "خنيث"
+    "كسمك"
 
   ];
 
